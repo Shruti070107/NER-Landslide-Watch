@@ -1,5 +1,7 @@
 # AI-Based Landslide Susceptibility & Risk Monitoring System for Northeast India
 
+The deployed link is :- https://ner-landslide-guard-lilac.vercel.app/
+
 An AI + GIS based system for analyzing historical landslides and identifying terrain characteristics associated with landslide occurrence across the North Eastern Region (NER) of India.
 
 The system integrates historical landslide inventories with SRTM Digital Elevation Model (DEM) data to create a geospatial feature pipeline for landslide susceptibility analysis and future risk prediction.
