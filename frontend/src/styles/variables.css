@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Landslide Gaurd NER Design System - Variables & Tokens
+   Forest Green & Earth Terrain Brown Palette
+   ========================================================================== */
+
+:root {
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-display: 'Outfit', var(--font-sans);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  /* Neutrals (Earthy warm off-white, light sage, dark readable text) */
+  --bg-app: #f6f8f4;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fcfdfa;
+  --bg-surface: #edf2eb;
+  --bg-surface-subtle: #f4f7f2;
+  --bg-input: #ffffff;
+  
+  --border-subtle: #d6e2d3;
+  --border-medium: #b7cbb3;
+  --border-focus: #16a34a;
+
+  --text-primary: #1c2b1a;      /* Deep Forest Slate */
+  --text-secondary: #3f523c;    /* Deep Moss */
+  --text-tertiary: #5d735a;     /* Forest Sage */
+  --text-muted: #889e85;        /* Soft Leaf */
+  --text-on-dark: #fcfdfa;
+
+  /* Brand / Earth & Forest Colors */
+  --brand-primary: #15803d;     /* Forest Emerald Green */
+  --brand-primary-light: #dcfce7;
+  --brand-navy: #1c2b1a;        /* Deep Forest Green-Black */
+  --brand-accent: #78350f;      /* Mountain Earth Brown */
+  --brand-brown: #92400e;       /* Terracotta Earth Brown */
+  --brand-brown-light: #fef3c7;
+
+  /* Contextual Emergency Status Tokens */
+  
+  /* 🟢 SAFE (Optimal conditions, normal background sensors) */
+  --status-safe: #16a34a;
+  --status-safe-bg: #f0fdf4;
+  --status-safe-border: #bbf7d0;
+  --status-safe-text: #15803d;
+  --status-safe-glow: rgba(22, 163, 74, 0.18);
+
+  /* 🟡 WARNING / LOW-MODERATE (Elevated moisture, watch status) */
+  --status-warning: #d97706;
+  --status-warning-bg: #fffbeb;
+  --status-warning-border: #fde68a;
+  --status-warning-text: #92400e;
+  --status-warning-glow: rgba(217, 119, 6, 0.18);
+
+  /* 🟠 HIGH RISK (Threshold crossed, soil saturation high) */
+  --status-high: #b45309;       /* Earthy Ochre High Risk */
+  --status-high-bg: #fff7ed;
+  --status-high-border: #fed7aa;
+  --status-high-text: #78350f;
+  --status-high-glow: rgba(180, 83, 9, 0.22);
+
+  /* 🔴 CRITICAL / EMERGENCY (Immediate landslide hazard, slope failure) */
+  --status-critical: #dc2626;
+  --status-critical-bg: #fef2f2;
+  --status-critical-border: #fecaca;
+  --status-critical-text: #991b1b;
+  --status-critical-glow: rgba(220, 38, 38, 0.25);
+
+  /* Shadows & Elevation */
+  --shadow-xs: 0 1px 2px 0 rgba(28, 43, 26, 0.04);
+  --shadow-sm: 0 1px 3px 0 rgba(28, 43, 26, 0.08), 0 1px 2px -1px rgba(28, 43, 26, 0.08);
+  --shadow-md: 0 4px 6px -1px rgba(28, 43, 26, 0.07), 0 2px 4px -2px rgba(28, 43, 26, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(28, 43, 26, 0.08), 0 4px 6px -4px rgba(28, 43, 26, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(28, 43, 26, 0.1), 0 8px 10px -6px rgba(28, 43, 26, 0.05);
+
+  /* Layout & Geometry */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  --header-height: 68px;
+  --max-width: 1480px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
